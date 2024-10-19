@@ -1,0 +1,111 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: rgb(218, 236, 236);
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.para {
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.para p {
+    margin-top: -10px;
+}
+
+/* card serction */
+.card {
+    background-color: white;
+    width: 20vw;
+    height: 55vh;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: gray;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative; 
+    padding-bottom: 40px; 
+}
+
+
+.card p,
+.card .heading,
+.card .sm,
+.card .green,
+.card .bold {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+.heading {
+    color: rgb(74, 70, 70);
+    font-weight: bolder;
+    font-size: medium;
+}
+
+.sm {
+    font-size: x-small;
+}
+
+
+.green {
+    color: rgb(128, 206, 11);
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.bold {
+    color: black;
+    font-weight: bolder;
+}
+
+
+.card hr {
+    width: 80%;
+    margin: 5px 0;
+}
+
+
+.btn {
+    background-color: rgb(97, 97, 237);
+    color: white;
+    padding: 8px;
+    font-size: x-small;
+    border: 2px solid gray;
+    position: absolute;
+    bottom: -15px; 
+    left: 50%;
+    transform: translateX(-50%); 
+}
+
+
+.card p:last-of-type {
+    margin-bottom: 10px; 
+}
+
+
+/* card positioning */
+
+.content{
+    display: flex;
+    justify-content: center;
+}
+
+.margin{
+    margin-top: -10px;
+    
+}
