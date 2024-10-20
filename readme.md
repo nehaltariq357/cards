@@ -1,0 +1,1 @@
+versel deployed URL = https://cards-pink-xi-70.vercel.app/
